@@ -1,0 +1,50 @@
+object Form1: TForm1
+  Left = 1076
+  Height = 651
+  Top = 160
+  Width = 842
+  Caption = 'Form1'
+  ClientHeight = 651
+  ClientWidth = 842
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object Button1: TButton
+    Left = 61
+    Height = 51
+    Top = 28
+    Width = 121
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 231
+    Height = 46
+    Top = 29
+    Width = 203
+    Caption = 'Button2'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Image1: TImage
+    Left = 41
+    Height = 462
+    Top = 114
+    Width = 773
+  end
+  object Label1: TLabel
+    Left = 3
+    Height = 15
+    Top = 608
+    Width = 112
+    Caption = 'Zadajte vtupné čislo :'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 144
+    Height = 23
+    Top = 608
+    Width = 80
+    TabOrder = 2
+  end
+end

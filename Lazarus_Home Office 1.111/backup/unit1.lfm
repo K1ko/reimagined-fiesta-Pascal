@@ -1,0 +1,45 @@
+object Form1: TForm1
+  Left = 1015
+  Height = 573
+  Top = 140
+  Width = 758
+  Caption = 'Form1'
+  ClientHeight = 573
+  ClientWidth = 758
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = 17
+    Height = 464
+    Top = 71
+    Width = 718
+    OnMouseDown = Image1MouseDown
+    OnMouseMove = Image1MouseMove
+  end
+  object Button1: TButton
+    Left = 46
+    Height = 31
+    Top = 22
+    Width = 61
+    Caption = 'Červená'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 112
+    Height = 36
+    Top = 24
+    Width = 118
+    Caption = 'Nastav Hrúbku'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 290
+    Height = 23
+    Top = 25
+    Width = 67
+    TabOrder = 2
+    Text = '5'
+  end
+end

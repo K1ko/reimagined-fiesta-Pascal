@@ -1,0 +1,107 @@
+object Form1: TForm1
+  Left = 970
+  Height = 638
+  Top = 118
+  Width = 789
+  Caption = 'Form1'
+  ClientHeight = 638
+  ClientWidth = 789
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object Button1: TButton
+    Left = 22
+    Height = 36
+    Top = 20
+    Width = 58
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 104
+    Height = 36
+    Top = 20
+    Width = 80
+    Caption = 'Button2'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 208
+    Height = 35
+    Top = 21
+    Width = 72
+    Caption = 'Button3'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 305
+    Height = 33
+    Top = 21
+    Width = 82
+    Caption = 'Button4'
+    OnClick = Button4Click
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 16
+    Height = 40
+    Top = 592
+    Width = 64
+    Caption = 'Button5'
+    OnClick = Button5Click
+    TabOrder = 4
+  end
+  object Button6: TButton
+    Left = 152
+    Height = 40
+    Top = 592
+    Width = 72
+    Caption = 'Button6'
+    OnClick = Button6Click
+    TabOrder = 5
+  end
+  object Button7: TButton
+    Left = 264
+    Height = 42
+    Top = 590
+    Width = 108
+    Caption = 'Button7'
+    OnClick = Button7Click
+    TabOrder = 6
+  end
+  object Button8: TButton
+    Left = 424
+    Height = 43
+    Top = 589
+    Width = 104
+    Caption = 'Button8'
+    OnClick = Button8Click
+    TabOrder = 7
+  end
+  object Image1: TImage
+    Left = 8
+    Height = 409
+    Top = 104
+    Width = 783
+  end
+  object Button9: TButton
+    Left = 581
+    Height = 42
+    Top = 21
+    Width = 142
+    Caption = 'Vyčisti!'
+    OnClick = Button9Click
+    TabOrder = 8
+  end
+  object Button10: TButton
+    Left = 581
+    Height = 32
+    Top = 594
+    Width = 187
+    Caption = 'Koniec programu'
+    OnClick = Button10Click
+    TabOrder = 9
+  end
+end

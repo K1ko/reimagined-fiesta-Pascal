@@ -1,0 +1,83 @@
+object Form1: TForm1
+  Left = 1144
+  Height = 575
+  Top = 164
+  Width = 771
+  Caption = 'Form1'
+  ClientHeight = 575
+  ClientWidth = 771
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object Button1: TButton
+    Left = 31
+    Height = 44
+    Top = 21
+    Width = 115
+    Caption = '1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Image1: TImage
+    Left = 8
+    Height = 432
+    Top = 72
+    Width = 752
+  end
+  object Edit1: TEdit
+    Left = 128
+    Height = 23
+    Top = 512
+    Width = 141
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 128
+    Height = 23
+    Top = 544
+    Width = 143
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 520
+    Width = 74
+    Caption = 'Šírka Schodov'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 15
+    Top = 552
+    Width = 78
+    Caption = 'Výška schodov'
+    ParentColor = False
+  end
+  object Button2: TButton
+    Left = 168
+    Height = 38
+    Top = 26
+    Width = 152
+    Caption = '2'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+  object Button3: TButton
+    Left = 352
+    Height = 33
+    Top = 31
+    Width = 160
+    Caption = '3'
+    OnClick = Button3Click
+    TabOrder = 4
+  end
+  object Button4: TButton
+    Left = 480
+    Height = 40
+    Top = 527
+    Width = 282
+    Caption = 'Koniec Programu!'
+    OnClick = Button4Click
+    TabOrder = 5
+  end
+end

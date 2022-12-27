@@ -1,0 +1,114 @@
+object Form1: TForm1
+  Left = 795
+  Height = 637
+  Top = 219
+  Width = 925
+  Caption = 'Form1'
+  ClientHeight = 637
+  ClientWidth = 925
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = 24
+    Height = 478
+    Top = 136
+    Width = 846
+  end
+  object Button1: TButton
+    Left = 17
+    Height = 23
+    Top = 9
+    Width = 73
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 115
+    Height = 24
+    Top = 7
+    Width = 81
+    Caption = 'Button2'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 208
+    Height = 27
+    Top = 5
+    Width = 79
+    Caption = 'Button3'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 304
+    Height = 25
+    Top = 5
+    Width = 72
+    Caption = 'Button4'
+    OnClick = Button4Click
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 400
+    Height = 27
+    Top = 4
+    Width = 74
+    Caption = 'Button5'
+    OnClick = Button5Click
+    TabOrder = 4
+  end
+  object Button6: TButton
+    Left = 496
+    Height = 26
+    Top = 5
+    Width = 63
+    Caption = 'Button6'
+    OnClick = Button6Click
+    TabOrder = 5
+  end
+  object Edit1: TEdit
+    Left = 17
+    Height = 23
+    Top = 40
+    Width = 47
+    TabOrder = 6
+  end
+  object Button7: TButton
+    Left = 568
+    Height = 24
+    Top = 7
+    Width = 56
+    Caption = 'Button7'
+    OnClick = Button7Click
+    TabOrder = 7
+  end
+  object Button8: TButton
+    Left = 640
+    Height = 21
+    Top = 7
+    Width = 63
+    Caption = 'Button8'
+    OnClick = Button8Click
+    TabOrder = 8
+  end
+  object Button9: TButton
+    Left = 718
+    Height = 23
+    Top = 6
+    Width = 68
+    Caption = 'Button9'
+    OnClick = Button9Click
+    TabOrder = 9
+  end
+  object Button10: TButton
+    Left = 800
+    Height = 23
+    Top = 9
+    Width = 59
+    Caption = 'Button10'
+    OnClick = Button10Click
+    TabOrder = 10
+  end
+end

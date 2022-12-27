@@ -1,0 +1,97 @@
+object Form1: TForm1
+  Left = 1131
+  Height = 740
+  Top = 113
+  Width = 787
+  Caption = 'Form1'
+  ClientHeight = 740
+  ClientWidth = 787
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object Button1: TButton
+    Left = 25
+    Height = 40
+    Top = 25
+    Width = 100
+    Caption = '1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 152
+    Height = 40
+    Top = 25
+    Width = 100
+    Caption = '2'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 296
+    Height = 40
+    Top = 25
+    Width = 100
+    Caption = '3'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Image1: TImage
+    Left = 15
+    Height = 583
+    Top = 82
+    Width = 745
+  end
+  object Edit1: TEdit
+    Left = 200
+    Height = 23
+    Top = 688
+    Width = 75
+    TabOrder = 3
+  end
+  object Edit2: TEdit
+    Left = 200
+    Height = 23
+    Top = 714
+    Width = 75
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 19
+    Height = 20
+    Top = 688
+    Width = 176
+    Caption = 'Zadajte Meno Používateľa:'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 19
+    Height = 20
+    Top = 712
+    Width = 165
+    Caption = 'Zadajte Vek Používateľa :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button4: TButton
+    Left = 536
+    Height = 50
+    Top = 680
+    Width = 232
+    Caption = 'Koniec Programu !'
+    OnClick = Button4Click
+    TabOrder = 5
+  end
+end

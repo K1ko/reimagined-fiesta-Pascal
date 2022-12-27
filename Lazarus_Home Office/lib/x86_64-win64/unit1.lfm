@@ -1,0 +1,49 @@
+object Form1: TForm1
+  Left = 1065
+  Height = 570
+  Top = 169
+  Width = 756
+  Caption = 'Form1'
+  ClientHeight = 570
+  ClientWidth = 756
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = 24
+    Height = 415
+    Top = 88
+    Width = 688
+  end
+  object Button1: TButton
+    Left = 88
+    Height = 24
+    Top = 11
+    Width = 74
+    Caption = 'Dolu'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 184
+    Height = 25
+    Top = 11
+    Width = 71
+    Caption = 'Hore'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 280
+    Height = 25
+    Top = 11
+    Width = 77
+    Caption = 'Zmeň smer'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Timer1: TTimer
+    Interval = 20
+    OnTimer = Timer1Timer
+    left = 16
+    top = 8
+  end
+end

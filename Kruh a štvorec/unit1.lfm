@@ -1,0 +1,70 @@
+object Form1: TForm1
+  Left = 1122
+  Height = 594
+  Top = 140
+  Width = 732
+  Caption = 'Form1'
+  ClientHeight = 594
+  ClientWidth = 732
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object Button1: TButton
+    Left = 185
+    Height = 51
+    Top = 26
+    Width = 147
+    Caption = 'Kruh a Štvorec.'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 224
+    Height = 23
+    Top = 524
+    Width = 113
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 228
+    Height = 23
+    Top = 560
+    Width = 111
+    TabOrder = 2
+  end
+  object Image1: TImage
+    Left = 16
+    Height = 397
+    Top = 91
+    Width = 700
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 30
+    Top = 517
+    Width = 168
+    Caption = 'Polomer kruhu je :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 45
+    Height = 30
+    Top = 554
+    Width = 163
+    Caption = 'Strana štvorca je :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+end

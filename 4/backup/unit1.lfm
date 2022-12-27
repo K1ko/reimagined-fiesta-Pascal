@@ -1,0 +1,42 @@
+object Form1: TForm1
+  Left = 256
+  Height = 513
+  Top = 145
+  Width = 1144
+  Caption = 'Form1'
+  ClientHeight = 513
+  ClientWidth = 1144
+  OnCreate = FormCreate
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = 71
+    Height = 397
+    Top = 49
+    Width = 668
+  end
+  object Button1: TButton
+    Left = 853
+    Height = 105
+    Top = 86
+    Width = 158
+    Caption = 'Grafika'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 943
+    Height = 1
+    Top = 358
+    Width = 1
+    ParentColor = False
+  end
+  object Button2: TButton
+    Left = 906
+    Height = 48
+    Top = 457
+    Width = 170
+    Caption = 'Koniec Programu.'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+end
